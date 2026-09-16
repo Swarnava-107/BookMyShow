@@ -26,11 +26,18 @@ public class Booking {
     private LocalDateTime bookingTime;
 
     @ManyToOne
-    @Column(name = "show_id", nullable = false)
+    @JoinColumn(name = "user_id", nullable = false)
     private User user;
+
+    @ManyToOne
+    @JoinColumn(name = "show_id", nullable = false)
+    private Show show;
 
     @Column(nullable = false)
     private String status;
+
+    @Column(nullable = false)
+    private double totalAmount;
 
     @OneToMany(mappedBy = "bookings", cascade = CascadeType.ALL)
     private List<ShowSeat> showSeats;
