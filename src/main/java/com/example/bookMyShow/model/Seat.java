@@ -16,7 +16,7 @@ public class Seat {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     @Column(nullable = false)
     private String seatNo;
@@ -25,7 +25,7 @@ public class Seat {
     private String seatType;
 
     @Column(nullable = false)
-    private String basePrice;
+    private Double basePrice;
 
     @ManyToOne
     @JoinColumn(name = "screen_id", nullable = false)

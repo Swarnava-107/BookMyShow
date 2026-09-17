@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ScreenDto {
 
-    private String id;
+    private Long id;
     private String name;
     private Integer totalSeats;
     private TheatreDto theatre;

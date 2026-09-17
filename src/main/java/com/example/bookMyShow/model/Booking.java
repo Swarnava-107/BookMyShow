@@ -20,7 +20,7 @@ public class Booking {
     private Long id;
 
     @Column(unique = true, nullable = false)
-    private String bookingNo;
+    private String bookingNumber;
 
     @Column(nullable = false)
     private LocalDateTime bookingTime;
@@ -39,7 +39,7 @@ public class Booking {
     @Column(nullable = false)
     private double totalAmount;
 
-    @OneToMany(mappedBy = "bookings", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL)
     private List<ShowSeat> showSeats;
 
     @OneToOne

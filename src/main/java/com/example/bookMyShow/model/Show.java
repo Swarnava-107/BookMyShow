@@ -40,5 +40,5 @@ public class Show {
     private List<ShowSeat> showSeats;
 
     @OneToMany(mappedBy = "show", cascade = CascadeType.ALL)
-    private List<Book> bookings;
+    private List<Booking> bookings;
 }

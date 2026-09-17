@@ -19,7 +19,7 @@ public class BookingDto {
     private ShowDto show;
     private UserDto user;
     private String status;
-    private double totalPrice;
+    private double totalAmount;
     private List<ShowSeatDto> seats;
     private PaymentDto payment;
 

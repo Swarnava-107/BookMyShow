@@ -16,7 +16,7 @@ public class PaymentDto {
     private String userId;
     private Double amount;
     private LocalDateTime paymentDate;
-    private String paymentType;
+    private String paymentMethod;
     private String status;
 
 }

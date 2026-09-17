@@ -11,6 +11,6 @@ import java.util.Optional;
 @Repository
 public interface TheatreRepository extends JpaRepository<Theatre, Long> {
 
-   List<Theatre> findByShowId(Long showId);
+   List<Theatre> findByCity(String city);
 
 }

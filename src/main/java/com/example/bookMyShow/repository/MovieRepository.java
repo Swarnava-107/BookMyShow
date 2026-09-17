@@ -11,7 +11,7 @@ import java.util.Optional;
 @Repository
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 
-    List<Booking> findByLanguage(String language);
+    List<Movie> findByLanguage(String language);
 
     List<Movie> findByGenre(String genre);
 
