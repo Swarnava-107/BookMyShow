@@ -1,4 +1,4 @@
-# 🎬 BookMyShow – Movie Ticket Booking Backend
+# BookMyShow – Movie Ticket Booking Backend
 
 A **full-fledged backend application for a movie ticket booking platform**, developed using **Java and Spring Boot**. The project provides RESTful APIs for managing movies, theatres, shows, seats, users, and ticket bookings.
 
@@ -6,7 +6,7 @@ The application follows a **layered backend architecture** and uses **Spring Dat
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The goal of this project is to build a backend system that handles the core workflow of an online movie ticket booking platform.
 
@@ -18,19 +18,19 @@ Users can discover available shows, view seat availability, select seats, and bo
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-* 🎥 **Movie Management**
+* **Movie Management**
 
   * Add and retrieve movie information.
   * Maintain movie-related data for scheduled shows.
 
-* 🏢 **Theatre Management**
+* **Theatre Management**
 
   * Manage theatre information.
   * Configure theatre seats and seating information.
 
-* 🕐 **Show Management**
+* **Show Management**
 
   * Create and manage movie shows.
   * Associate movies with theatres and show timings.
@@ -42,31 +42,31 @@ Users can discover available shows, view seat availability, select seats, and bo
   * Track seat availability for individual shows.
   * Manage show-specific seat information.
 
-* 🎟️ **Ticket Booking**
+* **Ticket Booking**
 
   * Select available seats for a particular show.
   * Book movie tickets for registered users.
   * Maintain booking and ticket information.
 
-* 👤 **User Management**
+* **User Management**
 
   * Create and retrieve user information.
   * Associate users with their bookings.
 
-* 🗄️ **Database Persistence**
+* **Database Persistence**
 
   * MySQL-based relational database.
   * Hibernate/JPA entity mapping.
   * Spring Data JPA repositories for database operations.
 
-* ⚠️ **Exception Handling**
+* **Exception Handling**
 
   * Centralized handling of application-level exceptions.
   * Meaningful responses for invalid operations and booking failures.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The project follows a **Controller → Service → Repository** layered architecture.
 
@@ -103,7 +103,7 @@ This separation keeps **API handling, business logic, and database operations in
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Technology          | Purpose                                    |
 | ------------------- | ------------------------------------------ |
@@ -117,7 +117,7 @@ This separation keeps **API handling, business logic, and database operations in
 
 ---
 
-## 🗃️ Core Domain Model
+## Core Domain Model
 
 The backend is built around several interconnected entities:
 
@@ -145,7 +145,7 @@ The entity relationships are mapped using **JPA/Hibernate annotations**, allowin
 
 ---
 
-## 🔄 Booking Workflow
+## Booking Workflow
 
 The core booking flow is:
 
@@ -169,7 +169,7 @@ This workflow demonstrates the implementation of real-world backend business log
 
 ---
 
-## 🔌 REST API Modules
+## REST API Modules
 
 The application exposes REST APIs organized around different resources.
 
@@ -195,7 +195,7 @@ Responsible for handling ticket booking and seat selection.
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -251,7 +251,7 @@ The backend will start on the configured Spring Boot port.
 
 ---
 
-## 🧪 Testing APIs
+## Testing APIs
 
 The REST APIs can be tested using tools such as:
 
@@ -301,7 +301,7 @@ This project demonstrates practical experience with:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements for the system include:
 
@@ -318,7 +318,7 @@ Potential improvements for the system include:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Swarnava Samanta**
 
@@ -327,6 +327,6 @@ https://github.com/Swarnava-107
 
 ---
 
-## ⭐ Project
+## Project
 
 If you find this project useful or interesting, consider giving the repository a ⭐.
